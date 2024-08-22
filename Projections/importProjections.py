@@ -4,7 +4,7 @@ import numpy as np
 import tabula 
 
 def importPDFProjections():
-    tabula.convert_into(f"E:\\Ben\\Documents\\ShallowRed\\Projections\\NFLDK2023_CS_ClayProjections2023.pdf","Projections\\Qb-projections.csv",output_format="csv",pages="35")
+    tabula.convert_into(f"\\Projections\\NFLDK2023_CS_ClayProjections2023.pdf","Projections\\Qb-projections.csv",output_format="csv",pages="35")
     tabula.convert_into(f"E:\\Ben\\Documents\\ShallowRed\\Projections\\NFLDK2023_CS_ClayProjections2023.pdf","Projections\\Rb-projections.csv",output_format="csv",pages="36-38")
     tabula.convert_into(f"E:\\Ben\\Documents\\ShallowRed\\Projections\\NFLDK2023_CS_ClayProjections2023.pdf","Projections\\Wr-projections.csv",output_format="csv",pages="39-43")
     tabula.convert_into(f"E:\\Ben\\Documents\\ShallowRed\\Projections\\NFLDK2023_CS_ClayProjections2023.pdf","Projections\\Te-projections.csv",output_format="csv",pages="44,45")
