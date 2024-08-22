@@ -4,10 +4,10 @@ import numpy as np
 import tabula 
 
 def importPDFProjections():
-    tabula.convert_into(f"\\Projections\\NFLDK2024_CS_ClayProjections2024.pdf","Projections\\Qb2-projections.csv",output_format="csv",pages="35")
-    tabula.convert_into(f"\\Projections\\NFLDK2024_CS_ClayProjections2024.pdf","Projections\\Rb2-projections.csv",output_format="csv",pages="36-38")
-    tabula.convert_into(f"\\Projections\\NFLDK2024_CS_ClayProjections2024.pdf","Projections\\Wr2-projections.csv",output_format="csv",pages="39-43")
-    tabula.convert_into(f"\\Projections\\NFLDK2024_CS_ClayProjections2024.pdf","Projections\\Te2-projections.csv",output_format="csv",pages="44,45")
+    tabula.convert_into(f"\\Projections\\NFLDK2024_CS_ClayProjections2024.pdf","Projections\\Qb-projections.csv",output_format="csv",pages="35")
+    tabula.convert_into(f"\\Projections\\NFLDK2024_CS_ClayProjections2024.pdf","Projections\\Rb-projections.csv",output_format="csv",pages="36-38")
+    tabula.convert_into(f"\\Projections\\NFLDK2024_CS_ClayProjections2024.pdf","Projections\\Wr-projections.csv",output_format="csv",pages="39-43")
+    tabula.convert_into(f"\\Projections\\NFLDK2024_CS_ClayProjections2024.pdf","Projections\\Te-projections.csv",output_format="csv",pages="44,45")
     return
 
 def get_Projections():
